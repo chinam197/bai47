@@ -1,0 +1,35 @@
+.wrapper-Login{
+    margin: 0px auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 99px;
+    .form-login{
+        display: flex;
+        gap: 5px;
+        .input-login{
+            border-radius: 5px;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid blue;
+            outline: none;
+        }
+        .button-login{
+            border-radius: 5px;
+            background-color:rgba(0, 0, 0, 0.163);
+            outline: none;
+            color: rgb(0, 0, 0);
+            border: 1px solid black;
+            transition:0.3s ease ;
+            transition-property: color background-color;
+            &:hover{
+                background-color: black;
+                color: white;
+                border-color:rgb(254, 254, 255) ;
+            }
+        }
+    }
+}
